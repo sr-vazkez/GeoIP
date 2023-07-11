@@ -49,3 +49,4 @@ Listo ya podras probar esta API.
 
 # Prueba 3 (Peces Linterna)
 
+Se desea calcular la cantidad de numeros procreados por el numero de dias de una lista con valores definidos por el mismo problema.
