@@ -32,22 +32,22 @@ def calcular_temporizadores(temporizadores_iniciales, dias):
 if __name__ == "__main__":
     # Ejemplo de uso
     temporizadores_iniciales = [3,1,4,2,1,1,1,1,1,1,1,4,1,4,1,2,1,1,2,1,3,4,5,1,1,4,1,3,3,1,1,1,1,3,3,1,3,3,1,5, 5,1,1,3,1,1,2,1,1,1,3,1,4,3,2,1,4,3,3,1,1,1,1,5,1,4,1,1,1,4,1,4,4,1,5,1,1,4,5,1, 1,2,1,1,1,4,1,2,1,1,1,1,1,1,5,1,3,1,1,4,4,1,1,5,1,2,1,1,1,1,5,1,3,1,1,1,2,2,1,4, 1,3,1,4,1,2,1,1,1,1,1,3,2,5,4,4,1,3,2,1,4,1,3,1,1,1,2,1,1,5,1,2,1,1,1,2,1,4,3,1, 1,1,4,1,1,1,1,1,2,2,1,1,5,1,1,3,1,2,5,5,1,4,1,1,1,1,1,2,1,1,1,1,4,5,1,1,1,1,1,1, 1,1,1,3,4,4,1,1,4,1,3,4,1,5,4,2,5,1,2,1,1,1,1,1,1,4,3,2,1,1,3,2,5,2,5,5,1,3,1,2, 1,1,1,1,1,1,1,1,1,3,1,1,1,3,1,4,1,4,2,1,3,4,1,1,1,2,3,1,1,1,4,1,2,5,1,2,1,5,1,1, 2,1,2,1,1,1,1,4,3,4,1,5,5,4,1,1,5,2,1,3]
-    # dias_prueba_1 = 18
-    # dias_prueba_2 = 80
-    dias_prueba_3 = 140
+    dias_prueba_1 = 18
+    dias_prueba_2 = 80
+    # dias_prueba_3 = 256
 
-    # resultado_temporizadores, resultado_total_peces = calcular_temporizadores(temporizadores_iniciales, dias_prueba_1)
-    # print("Temporizadores:", resultado_temporizadores)
-    # print("Total de peces:", resultado_total_peces)
-
-    # resultado_temporizadores, resultado_total_peces = calcular_temporizadores(temporizadores_iniciales, dias_prueba_2)
-    # print("Temporizadores:", resultado_temporizadores)
-    # print("Total de peces:", resultado_total_peces)
-
-    resultado_temporizadores, resultado_total_peces = calcular_temporizadores(temporizadores_iniciales, dias_prueba_3)
+    start_time = time.time()
+    resultado_temporizadores, resultado_total_peces = calcular_temporizadores(temporizadores_iniciales, dias_prueba_1)
     # print("Temporizadores:", resultado_temporizadores)
     print("Total de peces:", resultado_total_peces)
 
+    resultado_temporizadores, resultado_total_peces = calcular_temporizadores(temporizadores_iniciales, dias_prueba_2)
+    # print("Temporizadores:", resultado_temporizadores)
+    print("Total de peces:", resultado_total_peces)
 
-    start_time = time.time()
+    # resultado_temporizadores, resultado_total_peces = calcular_temporizadores(temporizadores_iniciales, dias_prueba_3)
+    # print("Temporizadores:", resultado_temporizadores)
+    # print("Total de peces:", resultado_total_peces)
+
+
     print("Tiempo de ejecución: %s segundos" % (time.time() - start_time))
