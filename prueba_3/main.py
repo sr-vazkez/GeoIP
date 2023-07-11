@@ -2,7 +2,7 @@
 # Respuestas:
 # 18 dias habra 1784 peces
 # 80  dias habra 380612 peces
-# 256 dias habra  12230304 peces
+# 256 dias habra 12230304 peces
 # Paul Vazquez
 
 import time
