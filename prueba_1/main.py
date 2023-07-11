@@ -2,7 +2,7 @@
 by: Paul Vazquez
 """
 
-def count_clean_socks(L):
+def count_clean_socks(L:list) -> dict[str,int]:
     """
     Cuenta la cantidad de calcetines limpios por color.
 
@@ -14,7 +14,7 @@ def count_clean_socks(L):
     """
     return {sock: L.count(sock) for sock in L}
 
-def count_dirty_socks(S):
+def count_dirty_socks(S:list) -> dict[str,int]:
     """
     Cuenta la cantidad de calcetines sucios por color.
 
@@ -26,7 +26,7 @@ def count_dirty_socks(S):
     """
     return {sock: S.count(sock) for sock in S}
 
-def wash_clean_socks(K, clean_socks, dirty_socks):
+def wash_clean_socks(K:int, clean_socks:dict, dirty_socks:dict) -> int:
     """
     Realiza el lavado de los calcetines limpios.
 
@@ -50,7 +50,7 @@ def wash_clean_socks(K, clean_socks, dirty_socks):
 
     return total_pairs
 
-def wash_dirty_socks(K, dirty_socks):
+def wash_dirty_socks(K:int, dirty_socks:dict) -> int:
     """
     Realiza el lavado de los calcetines sucios.
 
@@ -72,7 +72,7 @@ def wash_dirty_socks(K, dirty_socks):
 
     return total_pairs
 
-def solucion(K, L, S):
+def solucion(K:int, L:list, S:list) -> int:
     """
     Calcula el máximo número de pares de calcetines que Pedro puede llevar en su viaje.
 
