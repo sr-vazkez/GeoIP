@@ -40,14 +40,13 @@ if __name__ == "__main__":
     resultado_temporizadores, resultado_total_peces = calcular_temporizadores(temporizadores_iniciales, dias_prueba_1)
     # print("Temporizadores:", resultado_temporizadores)
     print("Total de peces:", resultado_total_peces)
+    print("Tiempo de ejecución: %s segundos" % (time.time() - start_time))
 
     resultado_temporizadores, resultado_total_peces = calcular_temporizadores(temporizadores_iniciales, dias_prueba_2)
     # print("Temporizadores:", resultado_temporizadores)
     print("Total de peces:", resultado_total_peces)
+    print("Tiempo de ejecución: %s segundos" % (time.time() - start_time))
 
     # resultado_temporizadores, resultado_total_peces = calcular_temporizadores(temporizadores_iniciales, dias_prueba_3)
     # print("Temporizadores:", resultado_temporizadores)
     # print("Total de peces:", resultado_total_peces)
-
-
-    print("Tiempo de ejecución: %s segundos" % (time.time() - start_time))
