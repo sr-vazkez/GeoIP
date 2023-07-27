@@ -1,4 +1,4 @@
-# Pruebas Técnicas SICTUM
+# Pruebas Técnicas
 
 En este repositorio se han guardado los archivos necesarios para dar resolución a las pruebas técnicas que me han enviado.
 
